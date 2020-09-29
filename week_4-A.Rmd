@@ -68,7 +68,7 @@ d_2015 <- read_enrollment("raw_data/class_enrollment_summary_by_term_fall_2015.x
 
 ```{r q4}
 
-bind_rows(d_2019, d_2018, d_2017, d_2016, d_2015, id = NULL)
+total_data <- bind_rows(d_2019, d_2018, d_2017, d_2016, d_2015, id = NULL)
 
 ```
 
@@ -77,6 +77,8 @@ bind_rows(d_2019, d_2018, d_2017, d_2016, d_2015, id = NULL)
 **Prompt:** Make an interesting plot with this data. Take that plot and publish it on Rpubs. Add a link to the Rpubs in the #general Slack channel.
 
 ``` {r q5}
+
+
 
 ```
 
